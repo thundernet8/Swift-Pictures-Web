@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#flfile").fileinput({
-        uploadUrl: "http://127.0.0.1:3001?inajax=1&ssl=1",
+        uploadUrl: window.uploadUrl,
         allowedFileExtensions: ["jpeg", "jpg", "png", "gif", "bmp"],
         overwriteInitial: false,
         maxFileSize: 5120,
