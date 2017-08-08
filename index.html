@@ -29,7 +29,7 @@
                     <li class="active"><a href="/">Home</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://github.com/thundernet8/Swift-Pictures">Github</a></li>
+                    <li><a href="https://github.com/thundernet8/COS-As-ImageService">Github</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -38,8 +38,7 @@
     </nav>
     <div class="container kv-main">
         <div class="page-header">
-            <h1>Image Upload</h1> 5 MB max per file. 10 files max per request.<br>Warning: this site is running under test, your
-            data maybe not consistent.
+            <h1>Image Upload</h1>支持每次请求10个文件同时上传，每个文件不得超过 5MB 大小.
         </div>
         <form enctype="multipart/form-data">
             <div class="form-group">
@@ -80,7 +79,7 @@
         </div>
     </footer>
     <script>
-        window.uploadUrl = "https://s.fuli.news/upload"
+        window.uploadUrl = "https://s.fuli.news/upload" // 请改为实际的上传接口地址
     </script>
     <script>
             (function (i, s, o, g, r, a, m) {
